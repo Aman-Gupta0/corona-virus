@@ -1,4 +1,5 @@
 {
+  "homepage": "https://aman-gupta0.github.io/corona-virus",
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
@@ -8,20 +9,22 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "antd": "3.26.13",
+    "antd": "5.1.2",
     "axios": "0.19.2",
     "google-map-react": "1.1.7",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-frappe-charts": "2.1.0",
     "react-indian-state-region-selector": "6.1.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "typescript": "3.3.3"
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
