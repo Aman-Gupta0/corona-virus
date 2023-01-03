@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/corona-virus/static/css/main.ea8d6391.css",
+    "main.js": "/corona-virus/static/js/main.0cd1e9ae.js",
+    "index.html": "/corona-virus/index.html",
+    "main.ea8d6391.css.map": "/corona-virus/static/css/main.ea8d6391.css.map",
+    "main.0cd1e9ae.js.map": "/corona-virus/static/js/main.0cd1e9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea8d6391.css",
+    "static/js/main.0cd1e9ae.js"
+  ]
+}
