@@ -4,7 +4,6 @@ import mapping from './map';
 const { Text } = Typography;
 
 const HeaderCard = (props) => {
-  console.log(mapping);
   return (
     <Card size={'small'} bordered={true}>
       <Text strong={true}>{props.heading}</Text>

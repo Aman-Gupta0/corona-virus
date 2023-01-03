@@ -21,7 +21,6 @@ class App extends Component {
       .get(URL)
       .then((response) => {
         if (response.data.success) {
-          // console.log("success", response);
           this.setState({
             coronaStats: response.data.data,
           });
